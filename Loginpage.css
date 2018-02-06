@@ -1,0 +1,59 @@
+.background{background-image: url('Image/move.gif');
+background-size: cover;
+background-repeat: no-repeat;}
+
+
+
+
+
+
+
+
+.loginbox{  
+            border: solid 10px #1a53ff;
+            margin-top:100px;
+            margin-left:auto;
+            margin-right: auto;
+            padding: 0px 50px;
+            width: 800px;
+            height: auto;
+            background-color:white;
+            box-shadow: 3px 3px 5px 5px #1a53ff;
+            }
+
+
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password], select {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #1a53ff;
+    color: white;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
