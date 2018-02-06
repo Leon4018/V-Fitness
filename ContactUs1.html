@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact-Us</title>
+</head>
+	
+    	<link rel="stylesheet" href="All.css">
+
+<style>    	
+
+
+</style>
+
+    <body style="background-color: linen">
+
+<p id="top" class="getintouch" ><strong><br>CONTACT US<br><br>Get In Touch.</strong></p>
+   
+<div style="display: flex;">
+    
+<div class="r3"><img src="Image/Mail.png" alt="EmailButton" style="width:100px;height:100px;"><br>
+    <br><strong>info</strong>:<a style="text-decoration-line: none" href="mailto:Bernard@gmail.com">Bernard@gmail.com<br></a>
+    <br><strong>Sales</strong>:<a style="text-decoration-line: none" href="mailto:Teckong@gmail.com" >Teckong@gmail.com<br></a>
+    <br><strong>Customer Service</strong>:<a style="text-decoration-line: none" href="mailto:Daniel@gmail.com" >Daniel@gmail.com<br></a>
+    <br><strong>Support:</strong><a style="text-decoration-line: none" href="mailto:Shawn@gmail.com">Shawn@gmail.com</a> 
+    <br>OR
+    <a style="text-decoration-line: none" href="mailto:Leon@gmail.com" >Leon@gmail.com<br></a>
+    
+    </div>
+
+    <div class="r3"><img src="Image/Call.png" alt="Handphone" style="width:100px;height:100px;"><br>
+    <br>Tel:03-40453607<br>
+    <br>H/P:012-345-6789<br> 
+    </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="r3"><img src="Image/Address.png" alt="location" style="width:100px;height:100px;"> <br>
+        <br>No. 94 Jln 4/48 Taman Dato Senu,Wilayah Persekutuan,51000 Malaysia<br>
+        <div id="map" style="width:100%;height:500px;background:yellow">
+
+        <script>
+            function myMap() {
+                var position = { lat: 3.193522, lng: 101.696527};
+                
+                var mapOptions = {
+                    center: position,
+                    zoom: 15,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                };
+                
+                var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+                
+                var marker = new google.maps.Marker({
+                    position: position,
+                    map: map
+                });
+                    }
+</script></div>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUql1bFnX_8sPPgLITURl_FnQ_SYXDkek&callback=myMap"></script>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>    
+    <div class="socialmedia"> 
+        <i style="margin-right: 10px;">Follow Us at: </i>
+        
+    <a style="text-decoration-line: none; margin-right: 10px;"  href="https://facebook.com" target="_blank">Facebook</a>
+       
+    <a style="text-decoration-line: none;margin-right: 10px;" href="https://twitter.com" target="_blank">Twitter</a>
+        
+    <a style="text-decoration-line: none;margin-right: 10px;" href="https://youtube.com" target="_blank">Youtube</a> 
+        
+    <a style="text-decoration-line: none;margin-right: 10px;" href="https://www.instagram.com" target="_blank">Istagram</a> 
+        </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <a style="text-decoration-line: none" href="#top">Back To Top</a>
+</div>
+
+
+
+</body>
+</html>
